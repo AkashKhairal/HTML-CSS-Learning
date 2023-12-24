@@ -1,0 +1,44 @@
+a[target] {
+    background-color: green;
+    color: white;
+}
+
+/* if we want more specific */
+a[target="_blank"]{
+    background-color: blue;
+    color: red;
+}
+
+/* if we ant to select any other attribute */
+a[href="http://google.com/"]{
+    background-color: orange;
+    color: yellow;
+}
+
+/* if a word exists  */
+a[href*="google"]{
+    background-color: pink;
+    color: greenyellow;
+}
+
+
+/* if we want the attribute 
+starts witha given value */
+a[href^="http"]{
+    background-color: black;
+    color: white;
+}
+
+
+/* if the attribute ends with
+a given value */
+a[href$="http"]{
+    background-color: magenta;
+    color: white;
+}
+
+/* attribute with multiple conditions */
+a[href^="http"][href$=".com"]{
+    background-color: magenta;
+    color: white;
+} 

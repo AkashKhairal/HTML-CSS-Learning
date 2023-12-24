@@ -1,0 +1,16 @@
+
+
+/* paragraph just after one */
+#products>p {
+    color: orange;
+}
+
+/* right after the section (sibling) */
+#products + p{
+    color: red;
+}
+
+/* all siblings right after the section  */
+#products ~ p{
+    color: forestgreen;
+}

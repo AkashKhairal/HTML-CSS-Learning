@@ -1,0 +1,19 @@
+body{
+    margin: 10px;
+}
+
+
+.article{
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5%;
+    width: 50vh;
+    height: 50vh;
+}
+
+
+
+img{
+    width: 50%;
+    height: 50%;
+}

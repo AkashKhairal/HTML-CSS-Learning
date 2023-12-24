@@ -1,0 +1,44 @@
+body{
+    margin: 10px;
+}
+
+/* pseudo classes are not real classes,
+they are classes that are applied by
+browsers default */
+
+/* traditional way of first assigning 
+a class named first and then adding
+css to it */
+/* p.first{
+    font-size: 140%;
+    font-style: italic;
+} */
+
+
+/* this will add css to the :first
+child of the article element
+Note: No need to add class in element */
+article :first-child{
+    font-size: 140%;
+    font-style: italic;
+}
+
+article p:first-of-type{
+    font-size: 140%;
+    font-style: italic;
+}
+
+/* last child element */
+article :last-child{
+    font-weight: bold;
+}
+
+/* select all the odd items in a list
+ul li:nth-child(odd){
+    color: deeppink;
+} */
+
+/* select 3rd item in the list */
+ul li:nth-child(3n){
+    color: deeppink;
+}
