@@ -2,3 +2,33 @@
 but :: double colon for pseudo classes */
 
 
+/* select first letter of element */
+p::first-letter{
+    font-weight: bold;
+}
+
+
+/* select first line of element */
+p::first-line{
+    font-weight: bold;
+}
+
+/* this will work for the selected text */
+p::selection{
+    background-color: chartreuse;
+}
+
+/* this will add content before the p tag */
+p::before{
+    content: "...";
+    display: block;
+}
+ 
+
+/* this will add content after p tag */
+p::after{
+    content: "...";
+    display: block;
+}
+
+ 
